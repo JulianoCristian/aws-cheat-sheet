@@ -90,6 +90,7 @@
         "CidrBlock": {"Ref": "privateSubnet1Cidr"},
         "AvailabilityZone": {"Ref" : "subnet1AZ"},
         "VpcId": {"Ref": "vpc"},
+        "MapPublicIpOnLaunch" : "true",
         "Tags": [
           {
             "Key": "Name",
@@ -105,6 +106,7 @@
         "CidrBlock": {"Ref": "publicSubnet2Cidr"},
         "AvailabilityZone": {"Ref" : "subnet2AZ"},
         "VpcId": {"Ref": "vpc"},
+        "MapPublicIpOnLaunch" : "true",
         "Tags": [
           {
             "Key": "Name",
